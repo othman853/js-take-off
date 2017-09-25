@@ -1,4 +1,4 @@
-# Novo projeto Node.js
+# Olá, mundo
 
 Antes de qualquer coisa, precisamos [instalar o node](https://nodejs.org/en/download/). Para testar se a instalação foi feita corretamente, podemos executar:
 
@@ -6,13 +6,11 @@ Antes de qualquer coisa, precisamos [instalar o node](https://nodejs.org/en/down
 node --version
 ```
 
-Este comando irá imprimir na tela a versão do node que acabou de ser instalada. 
+Este comando irá imprimir na tela a versão do node que acabou de ser instalada.
 
 ### Executando Scripts
 
-Uma vez que temos o node corretamente instalado num computador, podemos executar scripts ou comandos independentes \(com o uso do [REPL](https://en.wikipedia.org/wiki/Read%E2%80%93eval%E2%80%93print_loop), vamos voltar nesse assunto depois\). Neste momento tudo que precisamos entender é como executar scripts, pois é como um projeto em node começa a funcionar.
-
-
+Uma vez que temos o node corretamente instalado num computador, podemos executar scripts ou comandos independentes \(com o uso do [REPL](https://en.wikipedia.org/wiki/Read–eval–print_loop), vamos voltar nesse assunto depois\). Neste momento tudo que precisamos entender é como executar scripts, pois é como um projeto em node começa a funcionar.
 
 ### Olá mundo
 
@@ -34,6 +32,20 @@ Então, implementamos o olá mundo em JavaScript com a seguinte linha:
 
 ```js
 console.log('Bom dia')
+```
+
+### Funcionou?
+
+Para validar se nosso script funciona, podemos executá-lo:
+
+```
+node ola-mundo.js
+```
+
+Se tudo deu certo, deveríamos ver uma mensagem no terminal:
+
+```
+Bom dia
 ```
 
 
