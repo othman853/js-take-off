@@ -29,12 +29,12 @@ npm install --save-dev mocha chai
 Este comando resultará nas seguintes alterações do projeto:
 
 * A criação da pasta** **_**node\_modules**_
+
   * Que conterá o código das bibliotecas **chai** e **mocha**
 
 * O arquivo _**package-lock.json**_
+
   * Que conterá informações da versão das bibliotecas que estamos utilizando
-
-
 
 Organização de dependências
 
