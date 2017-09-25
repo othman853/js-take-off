@@ -1,70 +1,39 @@
 # Novo projeto Node.js
 
-Antes de qualquer coisa, precisamos [instalar o node](https://nodejs.org/en/download/). 
-
-
-
-Depois de o termos instalado, haverão dois novos comandos disponíveis:
-
-## Comando node: REPL e Scripts
-
-#### O que é um REPL
-
-REPL é uma sigla em inglês para **R**ead **E**val **P**rint **L**oop, o que significa que esta é uma ferramenta que pode ser utilizada para validar expressões de uma linguagem sem ter que escrever um arquivo para ser compilado/interpretado. Isso significa que, ao digitar `node` no terminal, vai ser possível validar expressões JavaScript com uma resposta imediata:
+Antes de qualquer coisa, precisamos [instalar o node](https://nodejs.org/en/download/). Para testar se a instalação foi feita corretamente, podemos executar:
 
 ```
-> 1 + 1
-2
+node --version
 ```
 
-#### Executando Scripts
+Este comando irá imprimir na tela a versão do node que acabou de ser instalada. 
 
-Além do REPL, o comando node também pode receber como parâmetro um arquivo de script, que será interpretado e executado:
+### Executando Scripts
 
-Se criarmos um arquivo chamado bom-dia.js contendo somente a seguinte linha:
-
-console.log\('Bom dia'\)
+Uma vez que temos o node corretamente instalado num computador, podemos executar scripts ou comandos independentes \(com o uso do [REPL](https://en.wikipedia.org/wiki/Read%E2%80%93eval%E2%80%93print_loop), vamos voltar nesse assunto depois\). Neste momento tudo que precisamos entender é como executar scripts, pois é como um projeto em node começa a funcionar.
 
 
 
-E executarmos este script com o comando node bom-dia.js
+### Olá mundo
 
-
-
-Teremos a seguinte mensagem no terminal:
-
-
-
-Dado que eu criei um arquivo chamado `bom-dia.js`
-
-E o arquivo possui o seguinte conteúdo:
-
-console.log\('Bom dia'\)
-
-
-
-Quando eu executar node bom-dia.js
-
-
-
-Então eu verei a mensagem Bom dia no terminal
-
-
-
-## npm: Ferramenta de build
-
-O que é um build?
-
-Criamos uma pasta para acomodar o código:
+Para fins de sanidade, criamos uma pasta para agrupar todos os futuros arquivos do nosso projeto:
 
 ```
-mkdir meu-projeto; cd meu-projeto
+mkdir ola-js
 ```
 
-Inicializamos o projeto através do npm:
+Depois, dentro desta pasta, criamos um arquivo para escrever nosso script de olá mundo:
 
+```bash
+cd ola-js # Acessa a pasta que criamos
+
+touch ola-mundo.js # cria um arquivo vazio chamado ola-mundo.js
 ```
-npm init
+
+Então, implementamos o olá mundo em JavaScript com a seguinte linha:
+
+```js
+console.log('Bom dia')
 ```
 
 
