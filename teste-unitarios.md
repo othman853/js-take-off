@@ -16,11 +16,35 @@ Antes de qualquer coisa, é importante estabelecer regras fundamentais:
 * No começo, concentre-se mais nos códigos que farão os testes passarem do que nos testes em si
 * Se preocupe em entender como o JavaScript funciona antes de tentar resolver problemas imensos utilizando-o
 
-Uma vez que tenhamos estas regras estabelecidas, vamos começar.
-
 ### Configurando a estrutura de testes
 
+Uma vez que tenhamos as regras básicas estabelecidas, vamos começar, nunca esquecendo das regras.
 
+O primeiro passo é adicionar as bibliotecas _mocha_ e _chai_ à nossa lista de _**dependências de desenvolvimento**_:
+
+```
+npm install --save-dev mocha chai
+```
+
+Este comando resultará nas seguintes alterações do projeto:
+
+* A criação da pasta** **_**node\_modules**_
+  * Que conterá o código das bibliotecas **chai** e **mocha**
+
+* O arquivo _**package-lock.json**_
+  * Que conterá informações da versão das bibliotecas que estamos utilizando
+
+
+
+Organização de dependências
+
+O node possui diferentes escopos para suas dependências
+
+Um projeto node possui diferentes _**escopos**_ dependência:
+
+#### Desenvolvimento
+
+#### Produção
 
 
 
