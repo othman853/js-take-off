@@ -1,3 +1,4 @@
-# My Awesome Book
+# JavaScript 101
 
-This file file serves as your book's preface, a great place to describe your book's content and ideas.
+Estudando JavaScript, ES6, Node.js e outras buzzwords através de TDD.
+

@@ -1,3 +1,18 @@
-# First Chapter
+# Variáveis
 
-GitBook allows you to organize your book into chapters, each chapter is stored in a separate file like this one.
+
+
+Há quatro formas de declarar uma variável em JavaScript:
+
+```js
+fruta = 'Banana'
+
+var fruta = 'Banana'
+
+let fruta = 'Banana'
+
+const fruta = 'Banana'
+```
+
+
+
