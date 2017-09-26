@@ -43,4 +43,3 @@ Express é a biblioteca mais popular para desenvolvimento de aplicações web co
 #### **MongoDB**
 
 MongoDB é um dos mais populares bancos de dados não relacionais e, embora não seja feito em JavaScript, ele ainda assim se baseia em vários conceitos da linguagem para estruturar informações e fornecer mecanismos de pesquisa.
-
