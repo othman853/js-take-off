@@ -1,6 +1,8 @@
 # Olá, mundo
 
-Antes de qualquer coisa, precisamos [instalar o node](https://nodejs.org/en/download/). Para testar se a instalação foi feita corretamente, podemos executar:
+Antes de qualquer coisa, precisamos instalar o node. Há um [instalador executável para Mac e Windows](https://nodejs.org/en/download/). A maneira mais fácil de instalá-lo no Linux é através do seu repositório, que pode ser configurado conforme [este guia oficial](https://nodejs.org/en/download/package-manager/).
+
+Para testar se a instalação foi feita corretamente, podemos executar:
 
 ```
 node --version
