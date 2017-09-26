@@ -14,5 +14,11 @@ Todo novo projeto de software tem problemas comuns que precisam de resolução e
 
 ### Automação de tarefas
 
-O npm possui definições de scripts. Isso é dizer que podemos automatizar tarefas repetitivas do projeto de uma maneira simples e organizada utilizando o npm. Alguns exemplos de tarefas poderiam ser: lint de código, execução de testes, atualização de documentação, etc. Se você não é familiar com estas tarefas, não se preocupe, isso não é importante agora e veremos algumas delas mais pra frente.
+O npm possui definições de scripts. Isso é dizer que podemos automatizar tarefas repetitivas do projeto de uma maneira simples e organizada utilizando o npm. Os alias de scripts, por exemplo, são úteis para dar um nome simples à um comando que pode ser exaustivamente utilizado no fluxo de desenvolvimento, mas que tem uma sintaxe muito longa para ser memorizada:
+
+```
+./cria-pastas-temporarias && ./copia-arquivos-estaticos --usar-svg && ./executa-testes
+```
+
+O comando abaixo é apenas um exemplo hipotético, mas que acontece com muita frequência conforme os projetos começam a crescer.
 
