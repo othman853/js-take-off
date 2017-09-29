@@ -6,11 +6,7 @@ O npm é uma ferramenta adicional ao node, que é instalada junto com ele. Porta
 
 Neste contexto, de forma simples, podemos entender _**pacote**_ como um pedaço de software reutilizável entre diferentes projetos. Pensando em uma analogia:
 
-
-
 > Imaginando que o nosso projeto é construir um carro, precisamos de um motor para que o carro possa andar e, por consequência, um motor precisa de um sistema de refrigeração.
-
-
 
 À partir daí \(se carros fossem como software\), temos duas opções:
 
@@ -58,10 +54,22 @@ Dessa forma, ao invés de executar o comando gigante toda vez, bastaria:
 npm test
 ```
 
-O npm possui apelidos padrões para scripts, que possuem um papel específico em um projeto, como:
+O npm possui apelidos padrões para scripts, que possuem um papel específico dentro de um projeto, como:
 
 * **start**: Espera-se que ao executar este comando, o projeto será executado
 * **test**: Espera-se que ao executar o comando deste apelido, os testes do projeto serão executados
+
+Todos os apelidos padrões do npm pode ser executados como:
+
+```
+npm <apelido>
+```
+
+No entanto, não precisamos nos restringir à apelidos padrões, podemos criar nossos próprios apelidos, porém, precisamos executá-los de outra forma:
+
+```
+npm run <meu-apelido>
+```
 
 
 

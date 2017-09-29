@@ -1,7 +1,5 @@
 # Organização de dependências
 
-
-
 O primeiro passo é adicionar as bibliotecas _mocha_ e _chai_ à nossa lista de _**dependências de desenvolvimento**_:
 
 ```
