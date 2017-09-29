@@ -12,7 +12,7 @@ Este comando irá imprimir na tela a versão do node que acabou de ser instalada
 
 ### Executando Scripts
 
-Uma vez que temos o node corretamente instalado num computador, podemos executar scripts ou comandos independentes \(com o uso do [REPL](https://en.wikipedia.org/wiki/Read–eval–print_loop), se você não é familiar com a ideia de um REPL, veja o apêndice\). Neste momento tudo que precisamos entender é como executar scripts, pois é como um projeto em node começa a funcionar.
+Uma vez que temos o node corretamente instalado num computador, podemos executar scripts ou comandos independentes \(com o uso do [REPL](https://en.wikipedia.org/wiki/Read–eval–print_loop). Se você não é familiar com a ideia de um REPL, veja o apêndice\). Neste momento tudo que precisamos entender é como executar scripts, pois é como um projeto em node começa a funcionar.
 
 ### Olá mundo
 

@@ -2,13 +2,13 @@
 
 JavaScript é uma linguagem muito versátil, o que a tornou uma das mais adotadas dos últimos anos, sendo aplicada nos mais diversos contextos, desde a criação de front-ends modernos baseados em componentes e estados reativos, passando por aplicações desktop e IoT, até sistemas web altamente complexos que demandam diferentes níveis de disponibilidade e escalabilidade.
 
-A sintaxe simplificada, tipagem flexível e a possibilidade de adotar conceitos de diversos paradigmas ao mesmo tempo são o que tornam JavaScript uma linguagem tão divertida e peculiar. Entretanto, sua peculiaridade abre margem para uma grande barreira de adoção, especialmente para aquelas pessoas que estão dando seus primeiros passos, seja somente em JS ou na programação como um todo. Assim como pode ser muito divertido programar usando JS e bolar soluções eficientes e com design incrível, também é muito fácil cair num temporal de confusão e código difícil de manter e entender. 
+A sintaxe simplificada, tipagem flexível e a possibilidade de adotar conceitos de diversos paradigmas ao mesmo tempo são o que tornam JavaScript uma linguagem tão divertida e peculiar. Entretanto, sua peculiaridade abre margem para uma grande barreira de adoção, especialmente para aquelas pessoas que estão dando seus primeiros passos, seja somente em JS ou na programação como um todo. Assim como pode ser muito divertido programar usando JS e bolar soluções eficientes e com design incrível, também é muito fácil cair num temporal de confusão e código difícil de manter e entender.
 
-A ideia deste guia, como o nome sugere, não é ensinar tudo que se pode fazer usando JavaScript, mas sim, as suas partes mais importantes que embasam conceitos mais amplos de cada área de aplicação de Js. 
+A ideia deste guia, como o nome sugere, não é ensinar tudo que se pode fazer usando JavaScript, mas sim, as suas partes mais importantes que embasam conceitos mais amplos de cada área de aplicação de Js.
 
 ### Preparar para decolagem
 
-O JavaScript de hoje em dia se baseia extensivamente no **node.js**. Isso se deve ao fato de o node ser a invenção que ampliou as possibilidades de uso da linguagem para além dos browsers \(o único lugar onde ela era aplicada originalmente\), sendo possível usar JavaScript, assim como outras linguagens de script \(como Python, Ruby ou Perl\), em diversos contextos.  À partir daí, surgiram muitas formas de se utilizar JavaScript e muitas ferramentas para impulsionar as mais diversas estratégias de construção de aplicações. Junto disso, também foram surgindo novas especificações da linguagem, que introduziram à elas novas funcionalidades.
+O JavaScript de hoje em dia se baseia extensivamente no **node.js**. Isso se deve ao fato de o node ser a invenção que ampliou as possibilidades de uso da linguagem para além dos browsers \(o único lugar onde ela era aplicada originalmente\), sendo possível usar JavaScript, assim como outras linguagens de script \(como Python, Ruby ou Perl\), em diversos contextos.  À partir daí, surgiram muitas formas de se utilizar JavaScript e muitas ferramentas para impulsionar as mais diversas estratégias de construção de aplicações. Junto disso, também foram surgindo novas especificações da linguagem, que introduziram à ela novas funcionalidades.
 
 A forma mais simples de entrar no contexto imenso do JavaScript é começar entendendo seus aspectos práticos \(como escrever código de fato\) através do node. Depois de obtida a velocidade ideal, será muito mais fácil voar para outras áreas de aplicação do JavaScript \(daí a analogia de uma decolagem\).
 
@@ -35,6 +35,4 @@ Express é a biblioteca mais popular para desenvolvimento de aplicações web co
 #### **MongoDB**
 
 MongoDB é um dos mais populares bancos de dados não relacionais e, embora não seja feito em JavaScript, ele ainda assim se baseia em vários conceitos da linguagem para estruturar informações e fornecer mecanismos de pesquisa.
-
-
 
