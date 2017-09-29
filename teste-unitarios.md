@@ -5,7 +5,7 @@
 O primeiro passo é adicionar as bibliotecas _mocha_ e _chai_ à nossa lista de _**dependências de desenvolvimento**_:
 
 ```
-npm install --save-dev mocha chai
+npm install --save-dev ava
 ```
 
 Este comando resultará nas seguintes alterações do projeto:
@@ -29,6 +29,4 @@ Um projeto node possui diferentes _**escopos**_ dependência:
 #### Produção
 
 Global
-
-
 
