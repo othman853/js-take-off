@@ -28,5 +28,7 @@ Um projeto node possui diferentes _**escopos**_ dependência:
 
 #### Produção
 
+Global
+
 
 

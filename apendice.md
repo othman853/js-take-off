@@ -1,10 +1,8 @@
 # Apêndice
 
-REPL: Read-Eval-Print-Loop
+* REPL: Read-Eval-Print-Loop
 
-
-
-Automação de build
+* Automação de build
 
 ## Pacotes ou dependências
 
@@ -31,5 +29,7 @@ Deixando o carro de lado e pensando em software novamente, podemos observar algu
 
 
 
-Uma alternativa ao npm: Yarn
+* Uma alternativa ao npm: Yarn
+
+
 
