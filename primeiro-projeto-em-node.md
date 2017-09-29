@@ -14,11 +14,11 @@ A primeira coisa a se fazer para ter um projeto em node é inicializá-lo atrav�
 npm init
 ```
 
-Este comando lhe fará perguntas à respeito de como você prefere configurar seu novo projeto. No momento, estas informações não são importantes, podemos deixar que o `npm` escolha pra gente, pressionando `enter` a cada pergunta que ele nos fizer.
+Este comando lhe fará perguntas à respeito de como você prefere configurar seu novo projeto. No momento, estas informações não são importantes, podemos deixar que o `npm` escolha pra gente, pressionando `enter` a cada pergunta que ele nos fizer. Depois de respondidas as perguntas, o npm terá gerado um novo arquivo chamado **package.json** dentro da pasta do projeto.
 
 ### package.json
 
-Package.json é um arquivo em formato JSON que guarda a configuração principal de um projeto node. Ele é gerado na execução do npm init e conterá informações sobre o projeto que podem ser utilizadas por pessoas ou por ferramentas que irão interagir com o código. Ao ser gerado, ele se parece mais ou menos com o seguinte:
+Package.json é um arquivo em formato JSON que guarda a configuração principal de um projeto node. Ele é gerado na execução do npm init e conterá informações sobre o projeto que podem ser utilizadas por pessoas ou ferramentas que irão interagir com o código. Ao ser gerado, ele se parece mais ou menos com o seguinte:
 
 ```
 {
