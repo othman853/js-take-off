@@ -1,5 +1,7 @@
 # Organização de dependências
 
+> Se você não é familiar com o conceito de pacotes ou dependências de um projeto, veja o conteúdo do apêndice.
+
 O primeiro passo é adicionar as bibliotecas _mocha_ e _chai_ à nossa lista de _**dependências de desenvolvimento**_:
 
 ```

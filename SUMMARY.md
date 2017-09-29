@@ -10,4 +10,5 @@
 * [Objetos](objetos-e-funcoes.md)
 * [Funções](funcoes.md)
 * [Assíncrono](assincrono.md)
+* [Apêndice](apendice.md)
 
