@@ -4,8 +4,11 @@ Desenvolver um software envolve sempre executar tarefas repetitivas durante um d
 
 Para esses casos, o npm permite criar apelidos para estes comandos longos. Isso traz duas grandes vantagens:
 
-* Não precisamos mais memorizar comandos gigantes
-* O npm se torna a ferramenta padrão dos projetos, centralizado seus comandos e scripts em um só lugar e criando uma maneira padronizada de executá-los
+**Não precisamos mais memorizar comandos gigantes,**
+
+**O npm é a ferramenta padrão dos projetos node**
+
+Isso quer dizer que todo projeto node utilizará npm \(bem, quase isso\), centralizando comandos e scripts num só lugar \(o package.json\) e criando uma maneira padrão de executá-los, assim, todo mundo saberá onde encontrar aquele script que faz as mágicas \(sejam pessoas ou robôs\).
 
 Abaixo temos um exemplo quase real de um caso onde o npm seria útil. Imagine que, para cada vez que um projeto precise ter seus testes executados, uma desenvolvedora teria que executar o seguinte comando:
 
