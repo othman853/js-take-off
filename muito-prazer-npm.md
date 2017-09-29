@@ -47,5 +47,5 @@ No entanto, não precisamos nos restringir à apelidos padrões, podemos criar n
 npm run <meu-apelido>
 ```
 
-
+Na documentação do npm existe a [lista de apelidos padrões](https://docs.npmjs.com/misc/scripts).
 
