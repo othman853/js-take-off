@@ -38,5 +38,5 @@ Num primeiro momento, o mais importante deste arquivo são as configurações ch
 
 ### O formato JSON
 
-O JSON é um padrão utilizado para _descrever_ informações. Ele é baseado na notação de objetos do JavaScript \(daí o nome, JSON significa: **J**ava**S**cript **O**bject **N**otation\). O único papel de um arquivo JSON é estruturar informações, nada mais. Ele é amplamente adotado por ser fácil de ler, isso é fato tanto para pessoas quanto para máquinas, por isso JSON se tornou tão popular. No capítulo de Objetos, a notação do JSON fará mais sentido, já que ela é a notação utilizada pelo JavaScript para representar seus Objetos.
+O JSON é um padrão utilizado para _descrever_ informações. Ele é baseado na notação de objetos do JavaScript \(daí o nome, JSON significa: **J**ava**S**cript **O**bject **N**otation\). O único papel de um arquivo JSON é descrever informações organizadas no formato de objetos JavaScript, nada mais. Ele é amplamente adotado por ser fácil de ler, isso é fato tanto para pessoas quanto para máquinas, por isso JSON se tornou tão popular. No capítulo de Objetos, a notação do JSON fará mais sentido, já que ela é a notação utilizada pelo JavaScript para representar seus Objetos.
 
