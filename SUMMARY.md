@@ -12,4 +12,5 @@
 * [Funções](funcoes.md)
 * [Assíncrono](assincrono.md)
 * [JavaScript dos Browsers](javascript-nos-browsers-101.md)
+* [O ECMAScript](o-ecmascript.md)
 
