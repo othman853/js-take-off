@@ -82,10 +82,24 @@ Então, observando o que acontece quando uma pessoa acessa um site qualquer, pod
   * Nos estilos descritos nos CSS
   * E em tudo mais que estiver nos JavaScripts
 
-### Como o browser interpreta as respostas
+### Como o browser lida com o JavaScript
+
+O browser é um software que possui muitos mecanismos complexos por trás das cenas, tudo para fazer com as páginas sejam renderizadas corretamente. No momento, estamos interessados em apenas um destes mecanismos em particular:  o **motor de interpretação e execução de JavaScript**.
+
+Browsers possuem diferentes motores de interpretação JavaScript, que funcionam de formas diferentes. Por exemplo, o Google Chrome possui
+
+Isso levanta o questionamento:
+
+_**Cada browser possui sua própria versão de JavaScript?**_
+
+A resposta mais simples é: **não**. O que levanta outro questionamento:
+
+_**Se cada motor funciona de uma forma diferente, mas o mesmo JavaScript funciona em todos os browsers, como isso acontece?**_
+
+A resposta mais simples seria: **ECMAScript**. No entanto, _não é totalmente verdade que o mesmo JavaScript funciona em todos os browsers_.
 
 * DOM
-* Engine JS
+* Mot
 
 
 
