@@ -4,7 +4,7 @@ JavaScript é uma linguagem muito versátil, o que a tornou uma das mais adotada
 
 A sintaxe simplificada, tipagem flexível e a possibilidade de adotar conceitos de diversos paradigmas ao mesmo tempo são o que tornam JavaScript uma linguagem tão divertida e peculiar. Entretanto, sua peculiaridade abre margem para uma grande barreira de adoção, especialmente para aquelas pessoas que estão dando seus primeiros passos, seja somente em JS ou na programação como um todo. Assim como pode ser muito divertido programar usando JS e bolar soluções eficientes e com design incrível, também é muito fácil cair num temporal de confusão e código difícil de manter e entender.
 
-A ideia deste guia, como o nome sugere, não é ensinar tudo que se pode fazer usando JavaScript, mas sim, as suas partes mais importantes que embasam conceitos mais amplos de cada área de aplicação de Js.
+A ideia deste guia, como o nome sugere, não é ensinar tudo que se pode fazer usando JavaScript, mas sim, as suas partes mais importantes que embasam conceitos mais amplos de cada área de aplicação de Js. Em outras palavras, este guia tenta ensinar o mínimo necessário para entender o que é e como se programa em JavaScript aplicando conceitos específicos da linguagem \(o que torna o trabalho mais divertido e a vida mais produtiva\). Idealmente, após ler este guia, a pessoa leitora será capaz de entender e escrever código JavaScript, independentemente da plataforma ou contexto em que se está programando, e apesar de os aspectos específicos de cada uma dessas plataformas ou contextos não serem cobertos aqui, não será difícil aprender tais aspectos em um próximo passo. 
 
 ### Preparar para decolagem
 

@@ -86,7 +86,7 @@ Então, observando o que acontece quando uma pessoa acessa um site qualquer, pod
 
 O browser é um software que possui muitos mecanismos complexos por trás das cenas, tudo para fazer com as páginas sejam renderizadas corretamente. No momento, estamos interessados em apenas um destes mecanismos em particular:  o **motor de interpretação e execução de JavaScript**.
 
-Browsers possuem diferentes motores de interpretação JavaScript, que funcionam de formas diferentes. Por exemplo, o Google Chrome possui
+Browsers possuem diferentes motores de interpretação JavaScript, que funcionam de formas diferentes. Por exemplo, o **Google Chrome** possui o **V8** e o **Firefox** possui o **SpiderMonkey**.
 
 Isso levanta o questionamento:
 
@@ -98,8 +98,11 @@ _**Se cada motor funciona de uma forma diferente, mas o mesmo JavaScript funcion
 
 A resposta mais simples seria: **ECMAScript**. No entanto, _não é totalmente verdade que o mesmo JavaScript funciona em todos os browsers_.
 
-* DOM
-* Mot
+O ECMAScript
+
+
+
+
 
 
 
