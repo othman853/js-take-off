@@ -1,4 +1,4 @@
-# Escopos de variáveis
+# Variáveis em mais detalhes
 
 Podemos entender escopo de variáveis como até onde elas são visíveis. Por exemplo, em JavaScript, temos dois tipos de escopo:
 

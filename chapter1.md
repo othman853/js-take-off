@@ -2,6 +2,8 @@
 
 Todos os conceitos e exemplos levarão em consideração o ES6, pois é uma das versões mais populares do JavaScript atualmente. Juntamente com os tipos de variáveis, é bastante importante entender os conceitos por trás dos escopos de variáveis em JavaScript, no entanto, para entender os escopos, existem alguns pré-requisitos, por isso, vamos ver primeiro os tipos de variáveis para depois entendermos mais à fundo o que são escopos e qual escopo cada tipo de variável possui.
 
+Somente com o conteúdo deste capítulo é possível seguir adiante para outros temas, no entanto, **apesar de opcional o **_**capítulo variáveis em mais detalhes, **_**deveria ser eventualmente visitado**.
+
 Basicamente, existem quatro formas diferentes de definir uma variável em JavaScript, cada uma com sua particularidade:
 
 ### Sem modificador
