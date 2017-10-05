@@ -10,6 +10,6 @@
 * [Objetos](objetos-e-funcoes.md)
 * [Funções](funcoes.md)
 * [Assíncrono](assincrono.md)
-* [Apêndice](apendice.md)
 * [JavaScript dos Browsers](javascript-nos-browsers-101.md)
+* [Apêndice](apendice.md)
 
