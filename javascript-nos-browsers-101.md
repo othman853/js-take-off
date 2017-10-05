@@ -47,7 +47,9 @@ Sem os browsers, não existiria a internet da maneira como a conhecemos, tudo se
 
 De uma maneira extremamente simplificada, podemos entender que a internet nada mais é do que uma rede de computadores conectados, conversando entre si.
 
-Para que essas conversas ocorram, é necessário que os computadores tenham linguagens formais para que todo mundo possa se entender. Tais linguagens são conhecidas como _**protocolos**_.
+Para que essas conversas ocorram, é necessário que os computadores tenham linguagens formais para que todo mundo possa se entender. Imagine alguém que somente fala italiano tentando falar com alguém que fala somente espanhol, seria impossível estabelecer uma comunicação eficiente. 
+
+Tais linguagens são conhecidas como _**protocolos**_.
 
 Cada **protocolo** é utilizado para um tipo específico de conversa, por exemplo:
 
