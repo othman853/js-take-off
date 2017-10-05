@@ -47,9 +47,9 @@ Sem os browsers, não existiria a internet da maneira como a conhecemos, tudo se
 
 De uma maneira extremamente simplificada, podemos entender que a internet nada mais é do que uma rede de computadores conectados, conversando entre si.
 
-Para que essas conversas ocorram, é necessário que os computadores tenham linguagens formais para que todo mundo possa se entender. Imagine alguém que somente fala italiano tentando falar com alguém que fala somente espanhol, seria impossível estabelecer uma comunicação eficiente. 
+Para que essas conversas ocorram, é necessário que os computadores tenham linguagens formais para que todo mundo possa se entender. Imagine alguém que somente fala italiano tentando falar com alguém que fala somente espanhol, seria impossível estabelecer uma comunicação eficiente.
 
-Tais linguagens são conhecidas como _**protocolos**_.
+_Tais linguagens são conhecidas como_ _**protocolos**_.
 
 Cada **protocolo** é utilizado para um tipo específico de conversa, por exemplo:
 
@@ -57,11 +57,13 @@ Cada **protocolo** é utilizado para um tipo específico de conversa, por exempl
 * **FTP:** é utilizado para trocar arquivos entre computadores
 * **HTTP:** utilizado para a transferência de conteúdo hipertexto
 
-**O HTTP é a fundação da internet**, pois ele permite que se envie informações de arquivos HTML, CSS e JavaScript de um computador para o outro, o que é fundamental para a vida das páginas web.
+**O HTTP é a fundação da internet**, pois ele permite que se envie informações de arquivos HTML, CSS e JavaScript de um computador para o outro, o que é fundamental para a vida das páginas web \(a forma principal de comunicação utilizada na internet\).
 
-_Isso quer dizer que, quando alguém acessa um site, para poder vê-lo funcionando num browser é preciso antes receber os dados contendo as definições HTML, CSS e JavaScript deste site._
+**Isso quer dizer que, quando alguém acessa um site, para poder vê-lo funcionando num browser é preciso antes receber os dados contendo as definições HTML, CSS e JavaScript deste site através do HTTP.**
 
 Evidentemente, não basta apenas receber tais dados, eles precisam ser interpretados para que façam sentido e se tornem uma página bonita e funcional.
+
+##### O passo a passo da magia chamada internet
 
 Então, recapitulando, o que acontece por debaixo dos panos para que a magia da internet seja possível?
 
