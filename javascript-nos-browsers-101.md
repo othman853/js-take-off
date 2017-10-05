@@ -98,11 +98,15 @@ _**Se cada motor funciona de uma forma diferente, mas o mesmo JavaScript funcion
 
 A resposta mais simples seria: **ECMAScript**. No entanto, _não é totalmente verdade que o mesmo JavaScript funciona em todos os browsers_.
 
-O ECMAScript
+#### O ECMAScript
 
+O ECMAScript é a especificação do JavaScript. Isso é dizer que ECMAScript é uma espécie de documentação onde estão as definições de o que é JavaScript e como cada browser ou plataforma devem implementar seus motores de interpretação JavaScript para que estes interpretem, bem, JavaScript, ou seja, que entenda JavaScript como a mesma coisa que todos os outros browsers entendem. O ECMAScript é, portanto, o guia oficial seguido por cada empresa/equipe/pessoa que desenvolve um browser que interprete JavaScript. 
 
+É dessa forma que os browsers possuem interpretadores de JavaScript que entendem JavaScript como sendo a mesma coisa. Na verdade, é quase isso. Alguns browsers implementam funcionalidades do JavaScript que ainda não foram implementadas em outros browsers \(ou nem estão na especificação ECMAScript\). 
 
+Essas diferenças causam incompatibilidade entre browsers e é por isso que passa a ser importante muitas vezes escrever partes do código que são específicas para alguns browsers \(Internet Explorer é um caso clássico\). Isso se torna especialmente importante quando nosso código precisa suportar browsers antigos \(Internet Explorer 6, por exemplo\) que não entendem versões mais recentes de JavaScript
 
+É através do ECMAScript que se definem novas versões de JavaScript e quais novas funcionalidades a linguagem terá a cada nova versão.
 
 
 
