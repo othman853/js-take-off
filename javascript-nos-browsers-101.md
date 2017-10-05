@@ -37,6 +37,18 @@ O JavaScript, por sua vez, teve diferentes papéis ao longo de sua história. Mu
   * Validar o campo CPF de um formulário usando um algorítmo
   * Mostrar a hora atual em um parágrafo \(isso só é possível com JavaScript\)
 
+#### Os browsers
+
+Sem os browsers, não existiria a internet da maneira como a conhecemos, tudo seria um monte de texto que acaba sendo quase ilegível para as pessoas, especialmente aquelas que não tem um conhecimento mais aprofundado de como os protocolos utilizados na comunicação entre servidores e clientes funcionam \(já me parece confuso ao tentar apontar este fato\). 
+
+##### Como funciona a internet e o que fazem os browsers?
+
+De uma maneira rápida e extremamente simplificada, um dos protocolos mais importantes da internet é o _**HTTP**_, que nos permite trocar mensagens entre o computador A e o computador B. Na maioria das vezes, tais mensagens são, na verdade, arquivos HTML, CSS e JavaScript, que compõem uma página web. 
+
+Quando alguém acessa, através do browser, o endereço _www.google.com.br, _o seguinte acontece por debaixo dos panos \(entre outras coisas que não importam agora\):
+
+
+
 
 
 juntamente com HTML e CSS. HTM
