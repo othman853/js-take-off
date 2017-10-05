@@ -8,13 +8,13 @@ A ideia deste guia, como o nome sugere, não é ensinar tudo que se pode fazer u
 
 ### Preparar para decolagem
 
-O JavaScript de hoje em dia se baseia extensivamente no **node.js**. Isso se deve ao fato de o node ser a invenção que ampliou as possibilidades de uso da linguagem para além dos browsers \(o único lugar onde ela era aplicada originalmente\), sendo possível usar JavaScript, assim como outras linguagens de script \(como Python, Ruby ou Perl\), em diversos contextos.  À partir daí, surgiram muitas formas de se utilizar JavaScript e muitas ferramentas para impulsionar as mais diversas estratégias de construção de aplicações. Junto disso, também foram surgindo novas especificações da linguagem, que introduziram à ela novas funcionalidades.
+O JavaScript de hoje em dia se baseia extensivamente no **node.js**. Isso se deve ao fato de o node ser a invenção que ampliou as possibilidades de uso da linguagem para além dos browsers \(o único lugar onde ela era aplicada originalmente\), sendo possível usar JavaScript, assim como outras linguagens de script \(como Python, Ruby ou Perl\), em diversos contextos \(há um capítulo dedicado ao node.js, o que ele é e o que ele faz\). À partir daí, surgiram muitas formas de se utilizar JavaScript e muitas ferramentas para impulsionar as mais diversas estratégias de construção de aplicações. Junto disso, também foram surgindo novas especificações da linguagem, que introduziram à ela novas funcionalidades.
 
 A forma mais simples de entrar no contexto imenso do JavaScript é começar entendendo seus aspectos práticos \(como escrever código de fato\) através do node. Depois de obtida a velocidade ideal, será muito mais fácil voar para outras áreas de aplicação do JavaScript \(daí a analogia de uma decolagem\).
 
 ### Que tipo de leitora aproveitaria melhor este guia?
 
-Este guia é voltado especialmente àquelas pessoas que estão começando seus estudos sobre programação, seja na faculdade ou por conta própria, como as pessoas que escreveram suas primeiras linhas de HTML e agora não sabem para onde ir, por exemplo. Este guia também pode ser útil à pessoas que já têm experiência em outras linguagens e querem aprender JavaScript e saber por onde começar no vasto e confuso mundo dos _callbacks_ e _undefined_. Se você é uma pessoa com uma certa experiência em JavaScript, talvez este guia seja bastante redundante e não muito útil.
+Este guia é voltado especialmente àquelas pessoas que estão começando seus estudos sobre programação, seja na faculdade ou por conta própria, como as pessoas que escreveram suas primeiras linhas de HTML e agora não sabem para onde ir, por exemplo. Este guia também pode ser útil à pessoas que já têm experiência em outras linguagens e querem aprender JavaScript e saber por onde começar no vasto e confuso mundo dos _callbacks_ e _undefined_. Se você é uma pessoa com uma certa experiência em JavaScript, talvez este guia seja redundante em alguns momentos.
 
 ### Exemplos de aplicação de JavaScript pós node
 
@@ -22,7 +22,7 @@ Citando apenas algumas ferramentas, se pode entender melhor como JavaScript torn
 
 #### Webpack, Babel, Typescript, React e outras bibliotecas e ferramentas para JS browser-side
 
-O código browser-side não é mais o mesmo que o de cinco ou dez anos atrás. Muitas ferramentas surgiram em volta do JavaScript, dando-lhe muitos super poderes que permitem as mais diversas formas de uso... 
+O código browser-side não é mais o mesmo que o de cinco ou dez anos atrás. Muitas ferramentas surgiram em volta do JavaScript, dando-lhe muitos super poderes que permitem as mais diversas formas de uso...
 
 #### **Ionic e React Native**
 

@@ -54,10 +54,70 @@ const soma = (umNumero, outroNumero) => {
   return umNumero + outroNumero;
 }
 
-soma(1,1) // retornará 2
+soma(1,1) // 2
 ```
 
-Em um primeiro momento, parece não existir uma grande diferença entre uma função convencional
+Em um primeiro momento, parece não existir uma grande diferença entre uma função convencional e uma arrow function, no entanto, é possível tornar as coisas mais simples:
+
+```js
+const soma = (umNumero, outroNumero) => umNumero + outroNumero
+
+soma(1,1) // 2
+```
+
+Em uma arrow function, quando o corpo da função possui somente um linha, não é necessário especificar chaves \({}\) nem return, a função retornará o resultado da expressão de sua única linha, sendo no caso do exemplo acima, `umNumero + outroNumero`.
+
+### Enviando Funções por parâmetro
+
+É possível enviar uma função por parâmetro para outra função:
+
+```js
+const oi = () => 'Oi'
+
+const saudarPessoa = (saudacao, nome) => saudacao() + ', ' + nome
+
+saudarPessoa(oi(), 'Helen Keller') // Oi, Helen Keller
+```
+
+### Funções retornando funções
+
+É possível que uma função retorne uma função:
+
+```js
+const multiplicar = (multiplicador) => (valor) => multiplicador * valor
+
+multiplicar(2) // Retorna uma funcao que recebe um valor e o multiplica por 2
+
+// O que equivale a:
+const multiplicaPor2 = multiplicar(2)
+
+const multiplicaPor3 = multiplicar(3)
+
+// E permite coisas como:
+multiplicaPor2(2) // 4
+
+multiplicaPor3(2) // 6
+```
+
+### Composição de funções
+
+Funções que retornam e recebem funções são muito mais úteis do que parecem em um primeiro momento. É possível, por exemplo, compor funções:
+
+```js
+const soma = (a, b) => a + b
+
+const dobra = (valor) => valor + valor
+
+const multiplica = (multiplicador) => (valor) => multiplicador * valor
+
+const somaDobros = (valorA, valorB) => soma(dobra(valorA), dobra(valorB))
+
+const multiplicaPor3 = multiplica(3)
+
+const somaDobrosEMultiplicaPor3 = (valorA, valorB) => multiplicaPor3(somaDobros(valorA, ValorB))
+
+somaDobrosEMultiplicaPor3(1, 1) // 12
+```
 
 
 
