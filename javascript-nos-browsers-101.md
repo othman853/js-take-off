@@ -13,7 +13,7 @@
 
 JavaScript foi por muito tempo uma linguagem cujo uso era restrito exclusivamente à criação de páginas web. HTML, CSS e JavaScript são as três linguagens fundamentais para criar páginas web, e cada uma possui uma responsabilidade específica:
 
-#### HTML
+### HTML
 
 **H**yper**T**ext **M**arkup **L**anguage. É utilizada para definir a estrutura de uma página, em outras palavras, quais elementos esta página terá. Por exemplo: links, cabeçalho, rodapé, uma lista de elementos ou um parágrafo\).
 
@@ -21,11 +21,11 @@ No começo da internet, fazia muito sentido que os sites fossem criados somente 
 
 Antigamente, as páginas feitas somente em HTML, eram apenas um monte de links, listas e textos em preto e branco, que permitiam pouquíssimas possibilidades de estilização, não era possível colorir ou formatar o conteúdo. Para isso, passou-se a utilizar o _CSS._
 
-#### CSS
+### CSS
 
 **C**ascading **S**tyle **S**heet. O CSS entrou em cena para tornar os documentos HTML mais bonitos. Quando aplicado à um documento HTML, o CSS consegue alterar o visual dos elementos deste documento, permitindo que se adicione cores, formatos, fontes e muitas outras opções. Hoje em dia, o CSS permite efetuar operações complexas, como a aplicação de estilos específicos para diferentes dispositivos e dimensões de tela \(parte das operações que permitem a criação de páginas _responsivas_\) ou até mesmo animações e resposta à eventos \(por exemplo, aplicar um estilo à um elemento quando o usuário passar o mouse por cima deste elemento\).
 
-#### JavaScript
+### JavaScript
 
 O JavaScript, por sua vez, teve diferentes papéis ao longo de sua história. Muitas tarefas que antes só poderiam ser feitas através de JavaScript, como animações e aplicação de estilos de acordo com os eventos, por exemplo, hoje podem ser feitas utilizando somente HTML e CSS. Isso quer dizer que o JavaScript não é mais necessário? Não, o JavaScript ainda permite que se façam inúmeras peripécias que não são possíveis apenas com HTML e CSS. Algumas delas são:
 
@@ -39,11 +39,11 @@ O JavaScript, por sua vez, teve diferentes papéis ao longo de sua história. Mu
 * Resposta à eventos
   * Por exemplo: Quando a pessoa clicar no botão Olá, mostrar mensagem "Olá"
 
-#### Os browsers
+### Os browsers
 
 Sem os browsers, não existiria a internet da maneira como a conhecemos, tudo seria um monte de texto que acaba sendo quase ilegível para as pessoas, especialmente aquelas que não tem um conhecimento mais aprofundado de como os protocolos utilizados na comunicação entre servidores e clientes funcionam \(já me parece confuso ao tentar apontar este fato\).
 
-##### Como funciona a internet?
+#### Como funciona a internet?
 
 De uma maneira extremamente simplificada, podemos entender que a internet nada mais é do que uma rede de computadores conectados, conversando entre si.
 
@@ -63,7 +63,7 @@ Cada **protocolo** é utilizado para um tipo específico de conversa, por exempl
 
 Evidentemente, não basta apenas receber tais dados, eles precisam ser interpretados para que façam sentido e se tornem uma página bonita e funcional. Essa é mais uma tarefa para os browsers: interpretar os dados recebidos por HTTP e transformá-los em páginas utilizáveis por seres humanos.
 
-##### O passo a passo da magia chamada internet
+#### O passo a passo da magia chamada internet
 
 Então, observando o que acontece quando uma pessoa acessa um site qualquer, podemos ver tudo que um browser faz por nós, humanos:
 
@@ -81,6 +81,11 @@ Então, observando o que acontece quando uma pessoa acessa um site qualquer, pod
   * Baseada na estrutura descrita pelo HTML
   * Nos estilos descritos nos CSS
   * E em tudo mais que estiver nos JavaScripts
+
+### Como o browser interpreta as respostas
+
+* DOM
+* Engine JS
 
 
 
