@@ -1,35 +1,58 @@
 # Variáveis
 
-Antes de entrarmos em detalhe sobre sintaxe ou qualquer outra coisa, precisamos entender um conceito muito importante: escopo de variáveis.
+Todos os conceitos e exemplos levarão em consideração o ES6, pois é uma das versões mais populares do JavaScript atualmente. Juntamente com os tipos de variáveis, é bastante importante entender os conceitos por trás dos escopos de variáveis em JavaScript, no entanto, para entender os escopos, existem alguns pré-requisitos, por isso, vamos ver primeiro os tipos de variáveis para depois entendermos mais à fundo o que são escopos e qual escopo cada tipo de variável possui.
 
-### Escopos
+Basicamente, existem quatro formas diferentes de definir uma variável em JavaScript, cada uma com sua particularidade:
 
-Cada vez que declaramos uma variável em JavaScript,
-
-#### Sem modificador
+### Sem modificador
 
 ```js
 fruta = 'Banana'
 ```
 
-Apesar de possível, esta forma **deve sempre ser evitada**,
+Apesar de ser possível, esta forma **deve ser evitada**, pois ela sempre declara variáveis no escopo global. Veremos mais sobre escopos \(e porque é ruim ficar declarando muitas variáveis no escopo global\) adiante.
 
-#### var
+### Var
 
 ```js
 var fruta = 'Banana'
 ```
 
-#### let
+_**var**_ era a única maneira existente de se declarar uma variável não-global em ES5.
+
+### Let
 
 ```js
 let fruta = 'Banana'
 ```
 
-#### const
+**let** é a maneira ES6 de declarar variáveis não-globais cujos valores podem ser sobrescritos, ou seja, o seguinte código é válido:
+
+```js
+let fruta = 'Banana'
+fruta = 'Morango'
+```
+
+### Const
 
 ```js
 const fruta = 'Banana'
+```
+
+**const** é a maneira ES6 de declarar variáveis não-globais cujos valores não podem ser sobrescritos. Ou seja, ao declarar uma variável const, não podemos mais alterar seu valor posteriormente, o que torna o seguinte código inválido:
+
+```js
+const fruta = 'Banana'
+fruta = 'Morango' // Resulta em um erro: Assignment to constant variable
+```
+
+E como se declara uma constante usando ES5?
+
+```js
+// Provavelmente isso não fara o menor sentido agora, sem problemas. 
+// Nada disso importa nesse momento.
+
+Object.defineProperty(window, 'fruta', {value: 'Banana', writable: false})
 ```
 
 

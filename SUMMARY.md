@@ -5,11 +5,13 @@
 * [JavaScript no Browser](a-web-e-suas-tecnologias.md)
 * [A ECMAScript](o-ecmascript.md)
 * [Variáveis](chapter1.md)
+* [Funções](funcoes.md)
+* [Escopos de variáveis](funcoes/escopos-de-variaveis.md)
 * [Objetos](objetos-e-funcoes.md)
 * [Olá, mundo](novo-projeto-nodejs.md)
 * [Primeiro projeto em node](primeiro-projeto-em-node.md)
 * [Automação de tarefas](muito-prazer-npm.md)
 * [\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_](.md)
 * Como funciona a internet?
-* [Apêndice](apendice.md)
+* Funções
 
