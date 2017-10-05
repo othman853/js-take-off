@@ -1,8 +1,6 @@
 # O JavaScript no browsers
 
-JavaScript foi por muito tempo uma linguagem cujo uso era restrito exclusivamente aos browsers, onde seu principal e único papel era trazer um pouco de vida à paginas estáticas feitas em **HTML** e **CSS**.
-
-HTML, CSS e JavaScript são as três linguagens fundamentais para criar páginas web, e cada uma possui uma responsabilidade específica:
+JavaScript foi por muito tempo uma linguagem cujo uso era restrito exclusivamente aos browsers, onde seu principal e único papel era trazer um pouco de vida à paginas estáticas feitas em **HTML** e **CSS**. Juntos, HTML, CSS e JavaScript, são, até hoje, as três linguagens fundamentais para criar páginas web e aplicações front-end, onde cada um dos três possui um papel específico:
 
 ### HTML
 
@@ -32,48 +30,11 @@ O JavaScript, por sua vez, teve diferentes papéis ao longo de sua história. Mu
 * Resposta à eventos
   * Por exemplo: Quando a pessoa clicar no botão Olá, mostrar mensagem "Olá"
 
+_Qual a diferença entre página estática e página dinâmica?_
+
 ### Os browsers {#the-browsers}
 
-Sem os browsers, não existiria a internet da maneira como a conhecemos, tudo seria um monte de texto que acaba sendo quase ilegível para as pessoas, especialmente aquelas que não tem um conhecimento mais aprofundado de como os protocolos utilizados na comunicação entre servidores e clientes funcionam \(já me parece confuso ao tentar apontar este fato\). Para entender melhor como os browsers funcionam e como eles interagem com JavaScript, precisamos, primeiro, entender como os computadores se comunicam na internet.
-
-### Como funciona a internet? {#how-the-internet-works}
-
-De uma maneira extremamente simplificada, podemos entender que a internet nada mais é do que uma rede de computadores conectados, conversando entre si.
-
-Para que essas conversas ocorram, é necessário que os computadores tenham linguagens formais para que todo mundo possa se entender. Imagine alguém que somente fala italiano tentando falar com alguém que fala somente espanhol, seria impossível estabelecer uma comunicação eficiente.
-
-_Tais linguagens são conhecidas como_ _**protocolos**_.
-
-Cada **protocolo** é utilizado para um tipo específico de conversa, por exemplo:
-
-* **SMTP:** é um dos protocolos utilizados para a troca de emails
-* **FTP:** é utilizado para trocar arquivos entre computadores
-* **HTTP:** utilizado para a transferência de conteúdo hipertexto
-
-**O HTTP é a fundação da internet**, pois ele permite que se envie informações de arquivos HTML, CSS e JavaScript de um computador para o outro, o que é fundamental para a vida das páginas web \(a forma principal de comunicação utilizada na internet\).
-
-**Isso quer dizer que, quando alguém acessa um site, para poder vê-lo funcionando num browser é preciso antes receber os dados contendo as definições HTML, CSS e JavaScript deste site através do HTTP.**
-
-Evidentemente, não basta apenas receber tais dados, eles precisam ser interpretados para que façam sentido e se tornem uma página bonita e funcional. Essa é mais uma tarefa para os browsers: interpretar os dados recebidos por HTTP e transformá-los em páginas utilizáveis por seres humanos.
-
-#### O passo a passo da magia chamada internet {#internet-interaction-step-by-step}
-
-Então, observando o que acontece quando uma pessoa acessa um site qualquer, podemos ver tudo que um browser faz por nós, humanos:
-
-**Comunicação HTTP:**
-
-* Alguém acessa o site no endereço www.google.com.br
-* O browser faz uma **requisição HTTP** para o servidor que está no endereço www.google.com.br
-  * Em outras palavras, o browser diz, falando em HTTP com o servidor: "Por favor, me passe os dados da página"
-* O servidor, de maneira formal, responde ao browser com uma **resposta HTTP** contendo as informações pedidas de forma organizada e padronizada, de um jeito que browser consegue entender o que foi recebido
-
-**Renderização de uma página:**
-
-* O browser recebe o conteúdo HTML, CSS e JS que foi enviado pelo servidor através do HTTP
-* O browser começa a interpretar tal conteúdo, transformando-o em uma página
-  * Baseada na estrutura descrita pelo HTML
-  * Nos estilos descritos nos CSS
-  * E em tudo mais que estiver nos JavaScripts
+Sem os browsers, não existiria a internet da maneira como a conhecemos, tudo seria um monte de texto que acaba sendo quase ilegível para as pessoas, especialmente aquelas que não tem um conhecimento mais aprofundado de como os protocolos utilizados na comunicação entre servidores e clientes funcionam \(já me parece confuso ao tentar apontar este fato\). Além de ser uma ferramenta que sabe comunicar e entender HTTP \(o protocolo fundamental da internet\), os browsers também sabem como montar páginas web de acordo com aquilo que eles recebem, logo, estas duas características os tornam não somente as aplicações mais utilizadas, mas também as mais importantes para a história e funcionamento da internet sob a perspectiva de uma pessoa usuária. 
 
 ### Como o browser lida com o JavaScript {#how-browsers-deal-with-js}
 

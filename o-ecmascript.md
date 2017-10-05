@@ -4,9 +4,9 @@ O ECMAScript é a especificação do JavaScript. Isso é dizer que ECMAScript é
 
 É dessa forma que os browsers possuem interpretadores de JavaScript que entendem JavaScript como sendo a mesma coisa. Na verdade, é quase isso. Alguns browsers implementam funcionalidades do JavaScript que ainda não foram implementadas em outros browsers \(ou nem estão na especificação ECMAScript\).
 
-### Incompatibilidade e Graceful Degradation
+### Polyfills e Graceful Degradation
 
-Essas diferenças causam incompatibilidade entre browsers e é por isso que às vezes se deve escrever partes do código específicas para alguns browsers \(Internet Explorer é um caso clássico\). Isso se torna especialmente importante quando nosso código precisa suportar browsers antigos \(Internet Explorer 6, por exemplo\) que não entendem versões mais recentes de JavaScript, o que faz com que seja necessário implementar _polyfills_ \(reimplementação "manual" de funcionalidades mais recentes que não estão presentes em versões mais antigas de uma linguagem\).
+As diferenças entre implementações do JavaScript causam incompatibilidade entre browsers e é por isso que às vezes se deve escrever partes do código específicas para alguns browsers \(Internet Explorer é um caso clássico\). Isso se torna especialmente importante quando nosso código precisa suportar browsers antigos \(Internet Explorer 6, por exemplo\) que não entendem versões mais recentes de JavaScript, o que faz com que seja necessário implementar _**polyfills**_ \(reimplementação "manual" de funcionalidades mais recentes que não estão presentes em versões mais antigas de uma linguagem\).
 
 A biblioteca Modernizr, por exemplo, é útil para saber quando podemos ou não utilizar uma funcionalidade do JavaScript em um browser. Podemos utilizar geolocalização na versão mais recente do Chrome, porém, não podemos fazer o mesmo no Internet Explorer 8. Modernizr nos permite identificar essas situações e implementar alguma alternativa para as funcionalidades que não podemos utilizar, o que é popularmente conhecido como _**Graceful Degradation**_.
 

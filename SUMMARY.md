@@ -1,6 +1,7 @@
 # Summary
 
 * [Introdução](README.md)
+* [Como funciona a internet?](como-funciona-a-internet.md)
 * [Os primórdios do JavaScript](a-web-e-suas-tecnologias.md)
 * [O ECMAScript](o-ecmascript.md)
 * [Olá, mundo](novo-projeto-nodejs.md)
@@ -11,5 +12,5 @@
 * [Testes e TDD](testes.md)
 * [Variáveis](chapter1.md)
 * [Objetos](objetos-e-funcoes.md)
-* [Funções](funcoes.md)
+* Como funciona a internet?
 
