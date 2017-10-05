@@ -12,7 +12,7 @@ A biblioteca [_Modernizr_](https://modernizr.com/), por exemplo, é útil para s
 
 ### **ES5 e ES6**
 
-A versão com melhor compatibilidade atualmente é a versão 5 do ECMAScript \(tendo em vista a retrocompatibilidade\). No entanto, a maioria dos browsers nas suas versões mais recentes já suportam as funcionalidades do ES6 \(ou, oficialmente, ES2015\). A parte triste disso é que o ES6 trouxe muitas melhorias ao JavaScript, possibilitando inúmeras maneiras de escrever um código melhor, mais e simples e mais legível.
+A versão com melhor compatibilidade atualmente é a versão 5 do ECMAScript \(tendo em vista a retrocompatibilidade\). No entanto, a maioria dos browsers nas suas versões mais recentes já suportam as funcionalidades do ES6 \(ou, oficialmente, [ES2015](http://www.ecma-international.org/ecma-262/6.0/)\). A parte triste disso é que o ES6 trouxe muitas melhorias ao JavaScript, possibilitando inúmeras maneiras de escrever um código melhor, mais e simples e mais legível.
 
 ### **Transpiling de código**
 

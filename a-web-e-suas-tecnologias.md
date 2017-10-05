@@ -48,7 +48,5 @@ A resposta mais simples é: **não**. O que levanta outro questionamento:
 
 _**Se cada motor funciona de uma forma diferente, mas o mesmo JavaScript funciona em todos os browsers, como isso acontece?**_
 
-A resposta mais simples seria: **ECMAScript**. No entanto, _não é totalmente verdade que o mesmo JavaScript funciona em todos os browsers_.
-
-
+A resposta mais simples seria: **ECMAScript**. No entanto, _não é totalmente verdade que o mesmo JavaScript funciona em todos os browsers_. Veremos mais detalhes à respeito disso no capítulo seguinte.
 
