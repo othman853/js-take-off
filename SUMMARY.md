@@ -1,8 +1,8 @@
 # Summary
 
 * [Introdução](README.md)
-* [Como funciona a internet?](como-funciona-a-internet.md)
-* [Os primórdios do JavaScript](a-web-e-suas-tecnologias.md)
+* [Resumidamente, como funciona a internet](como-funciona-a-internet.md)
+* [JavaScript no Browser](a-web-e-suas-tecnologias.md)
 * [O ECMAScript](o-ecmascript.md)
 * [Olá, mundo](novo-projeto-nodejs.md)
 * [Primeiro projeto em node](primeiro-projeto-em-node.md)
@@ -13,4 +13,5 @@
 * [Variáveis](chapter1.md)
 * [Objetos](objetos-e-funcoes.md)
 * Como funciona a internet?
+* [Apêndice](apendice.md)
 

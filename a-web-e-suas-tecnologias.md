@@ -1,4 +1,4 @@
-# O JavaScript no browsers
+# JavaScript no Browser
 
 JavaScript foi por muito tempo uma linguagem cujo uso era restrito exclusivamente aos browsers, onde seu principal e único papel era trazer um pouco de vida à paginas estáticas feitas em **HTML** e **CSS**. Juntos, HTML, CSS e JavaScript, são, até hoje, as três linguagens fundamentais para criar páginas web e aplicações front-end, onde cada um dos três possui um papel específico:
 
@@ -13,8 +13,6 @@ Antigamente, as páginas feitas somente em HTML, eram apenas um monte de links, 
 ### CSS
 
 **C**ascading **S**tyle **S**heet \(folha de estilo em cascata. O CSS entrou em cena para tornar os documentos HTML mais bonitos. Quando aplicado à um documento HTML, o CSS consegue alterar o visual dos elementos deste documento, permitindo que se adicione cores, formatos, fontes e muitas outras opções. Hoje em dia, o CSS permite efetuar operações complexas, como a aplicação de estilos específicos para diferentes dispositivos e dimensões de tela \(parte das operações que permitem a criação de páginas _responsivas_\) ou até mesmo animações e resposta à eventos \(por exemplo, aplicar um estilo à um elemento quando o usuário passar o mouse por cima deste elemento\).
-
-O CSS tem seu nome pela forma como seu código se organiza
 
 ### JavaScript
 
@@ -34,7 +32,7 @@ _Qual a diferença entre página estática e página dinâmica?_
 
 ### Os browsers {#the-browsers}
 
-Sem os browsers, não existiria a internet da maneira como a conhecemos, tudo seria um monte de texto que acaba sendo quase ilegível para as pessoas, especialmente aquelas que não tem um conhecimento mais aprofundado de como os protocolos utilizados na comunicação entre servidores e clientes funcionam \(já me parece confuso ao tentar apontar este fato\). Além de ser uma ferramenta que sabe comunicar e entender HTTP \(o protocolo fundamental da internet\), os browsers também sabem como montar páginas web de acordo com aquilo que eles recebem, logo, estas duas características os tornam não somente as aplicações mais utilizadas, mas também as mais importantes para a história e funcionamento da internet sob a perspectiva de uma pessoa usuária. 
+Sem os browsers, não existiria a internet da maneira como a conhecemos, tudo seria um monte de texto que acaba sendo quase ilegível para as pessoas, especialmente aquelas que não tem um conhecimento mais aprofundado de como os protocolos utilizados na comunicação entre servidores e clientes funcionam \(já me parece confuso ao tentar apontar este fato\). Além de ser uma ferramenta que sabe comunicar e entender HTTP \(o protocolo fundamental da internet\), os browsers também sabem como montar páginas web de acordo com aquilo que eles recebem, logo, estas duas características os tornam não somente as aplicações mais utilizadas, mas também as mais importantes para a história e funcionamento da internet sob a perspectiva de uma pessoa usuária.
 
 ### Como o browser lida com o JavaScript {#how-browsers-deal-with-js}
 
@@ -51,8 +49,6 @@ A resposta mais simples é: **não**. O que levanta outro questionamento:
 _**Se cada motor funciona de uma forma diferente, mas o mesmo JavaScript funciona em todos os browsers, como isso acontece?**_
 
 A resposta mais simples seria: **ECMAScript**. No entanto, _não é totalmente verdade que o mesmo JavaScript funciona em todos os browsers_.
-
-####  {#the-ecmascript}
 
 
 

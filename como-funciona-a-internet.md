@@ -1,4 +1,4 @@
-# Como funciona a internet?
+# Resumidamente, como funciona a internet
 
 De uma maneira extremamente simplificada, podemos entender que a internet nada mais é do que uma rede de computadores conectados, conversando entre si.
 
@@ -20,7 +20,7 @@ O protocolo HTTP pode ser entendido como **a fundação da internet**, pois ele 
 
 Evidentemente, não basta apenas receber tais dados, eles precisam ser interpretados para que façam sentido e se tornem uma página bonita e funcional. Essa é mais uma tarefa para os browsers: interpretar os dados recebidos por HTTP e transformá-los em páginas utilizáveis por seres humanos.
 
-### O passo a passo da magia chamada internet
+### Browser e HTTP passo a passo
 
 Então, observando o que acontece quando uma pessoa acessa um site qualquer, podemos ver tudo que um browser faz por nós, humanos:
 

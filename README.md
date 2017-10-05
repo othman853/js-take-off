@@ -14,11 +14,15 @@ A forma mais simples de entrar no contexto imenso do JavaScript é começar ente
 
 ### Que tipo de leitora aproveitaria melhor este guia?
 
-Este guia é voltado especialmente àquelas pessoas que estão começando seus estudos sobre programação, seja na faculdade ou por conta própria. Este guia também pode ser útil à pessoas que já têm experiência em outras linguagens e querem aprender JavaScript e saber por onde começar no vasto e confuso mundo dos _callbacks_ e _undefined_. Se você é uma pessoa com uma certa experiência em JavaScript, talvez este guia seja bastante redundante e não muito útil.
+Este guia é voltado especialmente àquelas pessoas que estão começando seus estudos sobre programação, seja na faculdade ou por conta própria, como as pessoas que escreveram suas primeiras linhas de HTML e agora não sabem para onde ir, por exemplo. Este guia também pode ser útil à pessoas que já têm experiência em outras linguagens e querem aprender JavaScript e saber por onde começar no vasto e confuso mundo dos _callbacks_ e _undefined_. Se você é uma pessoa com uma certa experiência em JavaScript, talvez este guia seja bastante redundante e não muito útil.
 
 ### Exemplos de aplicação de JavaScript pós node
 
 Citando apenas algumas ferramentas, se pode entender melhor como JavaScript tornou-se poderoso após o node:
+
+#### Webpack, Babel, Typescript, React e outras bibliotecas e ferramentas para JS browser-side
+
+O código browser-side não é mais o mesmo que o de cinco ou dez anos atrás. Muitas ferramentas surgiram em volta do JavaScript, dando-lhe muitos super poderes que permitem as mais diversas formas de uso... 
 
 #### **Ionic e React Native**
 

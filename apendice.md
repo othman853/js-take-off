@@ -1,10 +1,10 @@
 # Apêndice
 
-* REPL: Read-Eval-Print-Loop
+### **REPL: Read-Eval-Print-Loop**
 
-* Automação de build
+### **Automação de build**
 
-## Pacotes ou dependências
+### Pacotes ou dependências
 
 Neste contexto, de forma simples, podemos entender _**pacote**_ como um pedaço de software reutilizável entre diferentes projetos. Pensando em uma analogia:
 
@@ -27,9 +27,9 @@ Deixando o carro de lado e pensando em software novamente, podemos observar algu
 * [Mocha](https://www.npmjs.com/package/mocha): Uma biblioteca de execução de testes
 * [Express](https://www.npmjs.com/package/express): Um framework para construção de aplicações web baseadas em rotas
 
+### **Yarn**
 
-
-* Uma alternativa ao npm: Yarn
+### Anatomia de uma transação HTTP
 
 
 
