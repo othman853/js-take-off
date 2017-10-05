@@ -36,31 +36,34 @@ O JavaScript, por sua vez, teve diferentes papéis ao longo de sua história. Mu
 * Implementação de lógica na página
   * Validar o campo CPF de um formulário usando um algorítmo
   * Mostrar a hora atual em um parágrafo \(isso só é possível com JavaScript\)
+* Resposta à eventos
+  * Por exemplo: Quando a pessoa clicar no botão Olá, mostrar mensagem "Olá"
 
 #### Os browsers
 
-Sem os browsers, não existiria a internet da maneira como a conhecemos, tudo seria um monte de texto que acaba sendo quase ilegível para as pessoas, especialmente aquelas que não tem um conhecimento mais aprofundado de como os protocolos utilizados na comunicação entre servidores e clientes funcionam \(já me parece confuso ao tentar apontar este fato\). 
+Sem os browsers, não existiria a internet da maneira como a conhecemos, tudo seria um monte de texto que acaba sendo quase ilegível para as pessoas, especialmente aquelas que não tem um conhecimento mais aprofundado de como os protocolos utilizados na comunicação entre servidores e clientes funcionam \(já me parece confuso ao tentar apontar este fato\).
 
-##### Como funciona a internet e o que fazem os browsers?
+##### Como funciona a internet?
 
-De uma maneira rápida e extremamente simplificada, um dos protocolos mais importantes da internet é o _**HTTP**_, que nos permite trocar mensagens entre o computador A e o computador B. Na maioria das vezes, tais mensagens são, na verdade, arquivos HTML, CSS e JavaScript, que compõem uma página web. 
+De uma maneira extremamente simplificada, podemos entender que a internet nada mais é do que uma rede de computadores conectados, conversando entre si.
 
-Quando alguém acessa, através do browser, o endereço _www.google.com.br, _o seguinte acontece por debaixo dos panos \(entre outras coisas que não importam agora\):
+Para que essas conversas ocorram, é necessário que os computadores tenham linguagens formais para que todo mundo possa se entender. Tais linguagens são conhecidas como _**protocolos**_.
 
+Cada **protocolo** é utilizado para um tipo específico de conversa, por exemplo:
 
+* **SMTP:** é um dos protocolos utilizados para a troca de emails
+* **FTP:** é utilizado para trocar arquivos entre computadores
+* **HTTP:** utilizado para a transferência de conteúdo hipertexto
 
+**O HTTP é a fundação da internet**, pois ele permite que se envie informações de arquivos HTML, CSS e JavaScript de um computador para o outro, o que é fundamental para a vida das páginas web.
 
+_Isso quer dizer que, quando alguém acessa um site, para poder vê-lo funcionando num browser é preciso antes receber os dados contendo as definições HTML, CSS e JavaScript deste site._
 
-juntamente com HTML e CSS. HTM
+Evidentemente, não basta apenas receber tais dados, eles precisam ser interpretados para que façam sentido e se tornem uma página bonita e funcional.
 
-adicionando lógica e comportamento à estas páginas. Isto é dizer que é possível utilizar JavaScript para diferentes tarefas no domínio de páginas web, como, por exemplo:
+Então, recapitulando, o que acontece por debaixo dos panos para que a magia da internet seja possível?
 
-* Animações
-* Validações de formulário
-* Interação com HTML e CSS
-  * Como aplicação de estilos e criação de novos elementos na página
-* Resposta à eventos gerados por ações de usuário na página
-  * Exemplo: "Quando o botão for clicado, mostrar uma mensagem"
+* Alguém acessa o site www.google.com.br
 
 
 
