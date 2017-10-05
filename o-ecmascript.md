@@ -1,4 +1,4 @@
-# O ECMAScript
+# A ECMAScript
 
 O ECMAScript é a especificação do JavaScript. Isso é dizer que ECMAScript é uma espécie de documentação onde estão as definições de o que é JavaScript e como cada browser ou plataforma devem implementar seus motores de interpretação JavaScript para que estes interpretem, bem, JavaScript, ou seja, que entenda JavaScript como a mesma coisa que todos os outros browsers entendem. O ECMAScript é, portanto, o guia oficial seguido por cada empresa/equipe/pessoa que desenvolve um browser que interprete JavaScript.
 
@@ -8,7 +8,7 @@ O ECMAScript é a especificação do JavaScript. Isso é dizer que ECMAScript é
 
 As diferenças entre implementações do JavaScript causam incompatibilidade entre browsers e é por isso que às vezes se deve escrever partes do código específicas para alguns browsers \(Internet Explorer é um caso clássico\). Isso se torna especialmente importante quando nosso código precisa suportar browsers antigos \(Internet Explorer 6, por exemplo\) que não entendem versões mais recentes de JavaScript, o que faz com que seja necessário implementar _**polyfills**_ \(reimplementação "manual" de funcionalidades mais recentes que não estão presentes em versões mais antigas de uma linguagem\).
 
-A biblioteca Modernizr, por exemplo, é útil para saber quando podemos ou não utilizar uma funcionalidade do JavaScript em um browser. Podemos utilizar geolocalização na versão mais recente do Chrome, porém, não podemos fazer o mesmo no Internet Explorer 8. Modernizr nos permite identificar essas situações e implementar alguma alternativa para as funcionalidades que não podemos utilizar, o que é popularmente conhecido como _**Graceful Degradation**_.
+A biblioteca [_Modernizr_](https://modernizr.com/), por exemplo, é útil para saber quando podemos ou não utilizar uma funcionalidade do JavaScript em um browser. Podemos utilizar geolocalização nas versões mais recentes do Chrome, porém, não podemos fazer o mesmo no Internet Explorer 8. _Modernizr_ nos permite identificar essas situações e implementar alguma alternativa para as funcionalidades que não podemos utilizar, o que é popularmente conhecido como _**Graceful Degradation**_.
 
 ### **ES5 e ES6**
 

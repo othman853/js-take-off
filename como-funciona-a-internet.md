@@ -1,4 +1,4 @@
-# Resumidamente, como funciona a internet
+# HTTP: a base da internet
 
 De uma maneira extremamente simplificada, podemos entender que a internet nada mais é do que uma rede de computadores conectados, conversando entre si.
 
@@ -12,7 +12,7 @@ Cada **protocolo** é utilizado para um tipo específico de conversa, por exempl
 * **FTP:** é utilizado para trocar arquivos entre computadores
 * **HTTP:** utilizado para a transferência de conteúdo hipertexto
 
-### **HTTP **
+### O **HTTP **
 
 O protocolo HTTP pode ser entendido como **a fundação da internet**, pois ele permite que se envie informações de arquivos HTML, CSS e JavaScript de um computador para o outro, o que é fundamental para a vida das páginas web \(a forma principal de comunicação utilizada na internet\).
 
@@ -39,5 +39,5 @@ Então, observando o que acontece quando uma pessoa acessa um site qualquer, pod
   * Nos estilos descritos nos CSS
   * E em tudo mais que estiver nos JavaScripts
 
-
+Em princípio, isso é tudo que precisamos saber sobre como os computadores se comunicam através da internet, no entanto, este é um assunto que se aprofunda muito e possui inúmeros conceitos e tópicos que valem a pena serem aprendidos em algum momento.
 

@@ -1,5 +1,7 @@
 # Apêndice
 
+### 
+
 ### **REPL: Read-Eval-Print-Loop**
 
 ### **Automação de build**
@@ -28,6 +30,12 @@ Deixando o carro de lado e pensando em software novamente, podemos observar algu
 * [Express](https://www.npmjs.com/package/express): Um framework para construção de aplicações web baseadas em rotas
 
 ### **Yarn**
+
+
+
+# HTTP
+
+### Verbos HTTP
 
 ### Anatomia de uma transação HTTP
 
