@@ -1,4 +1,4 @@
-# O mínimo sobre Funções
+# Funções
 
 ### O que é uma função?
 

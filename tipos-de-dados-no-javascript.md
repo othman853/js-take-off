@@ -1,4 +1,4 @@
-# Tipos de dados
+# Escopos e Tipos de dados
 
 ### Null
 
