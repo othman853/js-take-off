@@ -1,6 +1,7 @@
 # Summary
 
 * [Introdução](README.md)
+* O que é node.js? Qual a diferença entre node.js e JavaScript?
 * [HTTP: a base da internet](como-funciona-a-internet.md)
 * [JavaScript no Browser](a-web-e-suas-tecnologias.md)
 * [A ECMAScript](o-ecmascript.md)
@@ -12,5 +13,5 @@
 * [Olá, mundo](novo-projeto-nodejs.md)
 * [Primeiro projeto em node](primeiro-projeto-em-node.md)
 * [Automação de tarefas](muito-prazer-npm.md)
-* [Browsers: DOM e BOM](js-no-browser-dom-e-bom.md)
+* O que é node.js? Qual a diferença entre node.js e JavaScript?
 
