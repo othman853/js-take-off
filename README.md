@@ -8,7 +8,7 @@ A ideia deste guia, como o nome sugere, não é ensinar tudo que se pode fazer u
 
 ### Preparar para decolagem
 
-O JavaScript de hoje em dia se baseia extensivamente no **node.js**. Isso se deve ao fato de o node ser a invenção que ampliou as possibilidades de uso da linguagem para além dos browsers \(o único lugar onde ela era aplicada originalmente\), sendo possível usar JavaScript, assim como outras linguagens de script \(como Python, Ruby ou Perl\), em diversos contextos.  À partir daí, surgiram muitas formas de se utilizar JavaScript e muitas ferramentas para impulsionar as mais diversas estratégias de construção de aplicações. Junto disso, também foram surgindo novas especificações da linguagem, que introduziram à ela novas funcionalidades.
+O JavaScript de hoje em dia se baseia extensivamente no **node.js**. Isso se deve ao fato de o node ser a invenção que ampliou as possibilidades de uso da linguagem para além dos browsers \(o único lugar onde ela era aplicada originalmente\), sendo possível usar JavaScript, assim como outras linguagens de script \(como Python, Ruby ou Perl\), em diversos contextos \(há um capítulo dedicado ao node.js, o que ele é e o que ele faz\). À partir daí, surgiram muitas formas de se utilizar JavaScript e muitas ferramentas para impulsionar as mais diversas estratégias de construção de aplicações. Junto disso, também foram surgindo novas especificações da linguagem, que introduziram à ela novas funcionalidades.
 
 A forma mais simples de entrar no contexto imenso do JavaScript é começar entendendo seus aspectos práticos \(como escrever código de fato\) através do node. Depois de obtida a velocidade ideal, será muito mais fácil voar para outras áreas de aplicação do JavaScript \(daí a analogia de uma decolagem\).
 

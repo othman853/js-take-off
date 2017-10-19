@@ -1,10 +1,10 @@
 # Summary
 
 * [Introdução](README.md)
-* O que é node.js? Qual a diferença entre node.js e JavaScript?
 * [HTTP: a base da internet](como-funciona-a-internet.md)
 * [JavaScript no Browser](a-web-e-suas-tecnologias.md)
 * [A ECMAScript](o-ecmascript.md)
+* O que é node.js? Qual a diferença entre node.js e JavaScript?
 * [Tipos de dados no JavaScript](tipos-de-dados-no-javascript.md)
 * [O mínimo sobre Variáveis](chapter1.md)
 * [O mínimo sobre Funções](funcoes-o-minimo-necessario.md)
