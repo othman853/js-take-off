@@ -5,7 +5,7 @@
 * [JavaScript no Browser](a-web-e-suas-tecnologias.md)
 * [A ECMAScript](o-ecmascript.md)
 * [O que é node.js? Qual a diferença entre node.js e JavaScript?](o-que-e-nodejs-qual-a-diferenca-entre-nodejs-e-javascript.md)
-* [O mínimo sobre Variáveis](chapter1.md)
+* [Declarando variáveis](chapter1.md)
 * [Tipos de dados](tipos-de-dados-no-javascript.md)
 * [O mínimo sobre Funções](funcoes-o-minimo-necessario.md)
 * [O mínimo sobre Objetos](objetos-e-funcoes.md)
