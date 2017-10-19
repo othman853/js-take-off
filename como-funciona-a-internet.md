@@ -43,7 +43,7 @@ Então, observando o que acontece quando uma pessoa acessa um site qualquer, pod
 
 No exemplo anterior, o browser fez uma requisição para o site www.google.com.br. Na prática, ele enviou, através de uma comunicação HTTP, um texto, mais ou menos como este:
 
-```
+```http
 GET  HTTP/1.1
 Host: www.google.com.br
 Cache-Control: no-cache
@@ -51,7 +51,7 @@ Cache-Control: no-cache
 
 E o servidor da Google, por sua vez, respondeu com algo mais ou menos assim:
 
-```
+```html
 <!doctype html><html itemscope="" itemtype="http://schema.org/WebPage" lang="pt">
   <head>
   <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
