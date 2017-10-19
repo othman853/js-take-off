@@ -39,5 +39,33 @@ Então, observando o que acontece quando uma pessoa acessa um site qualquer, pod
   * Nos estilos descritos nos CSS
   * E em tudo mais que estiver nos JavaScripts
 
+### Como se parece uma requisição HTTP?
+
+No exemplo anterior, o browser fez uma requisição para o site www.google.com.br. Na prática, ele enviou, através de uma comunicação HTTP, um texto, mais ou menos como este:
+
+```http
+GET  HTTP/1.1
+Host: www.google.com.br
+Cache-Control: no-cache
+```
+
+E o servidor da Google, por sua vez, respondeu com algo mais ou menos assim:
+
+```html
+<!doctype html><html itemscope="" itemtype="http://schema.org/WebPage" lang="pt">
+  <head>
+  <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+  <meta content="/images/branding/googleg/1x/googleg_standard_color_128dp.png" itemprop="image">
+  <title>Google</title>
+  <script>
+    (function(){
+      window.google={kEI:'2vToWbWNOcObwQSXhKLADA',kEXPI:'1352821,1353383,1354277,1354401,1354915,1355159,1355218,1355325,1355527,1355735,1355800,1355820,3700263,3700440,3700476,4029815,4031109,4043492,4045841,4048347,4072774,4076999,4078430,4081039,4081164,4092182,4093169,4095909,4097153,4097470,4097922,4097929,4098721,4098728,4098752,4102238,4103475,4103861,4104258,4104414,4108824,4109316,4109489,4110656,4110685,4111016,4113215,4114597,4115289,4116926,4116935,4117328,4117980,4118226,4118437,4118798,4119272,4119740,4120415,4120660,4121035,4121518,4122185,4122352,4124091,4124174,4124411,4124497,4124850,4124893,4124968,4124975,4125837,4125873,4125962,4126204,4127473,4127555,4127657,4127744,4127775,4127776,4128586,4128874,4129520,4129555,4129633,4130575,4130783,4131247,4131286,4131834,4132255,4132566,4132784,4132953,4133090,4133113,4133245,4133416,4133424,4134266,4134327,4134560,4135088,4135300,4135576,4135954,4135968,4136205,4136223,4136399,4136549,4137482,4137548,10200083,10200096,10201956,16200027,19003868,19003881,19003883,19003900,19003901,19003907,19003909,19003910,19003913,19003927',authuser:0,kscs:'c9c918f0_2vToWbWNOcObwQSXhKLADA',u:'c9c918f0',kGL:'BR'};google.kHL='pt';
+    })();
+
+...
+```
+
+Ou seja, a resposta do browser foi um documento HTML, contento scripts JavaScript e links para outros documentos CSS e mais scripts. Esta é a informação que o browser interpretará e transformará na famosa página de busca da Google.
+
 Em princípio, isso é tudo que precisamos saber sobre como os computadores se comunicam através da internet, no entanto, este é um assunto que se aprofunda muito e possui inúmeros conceitos e tópicos que valem a pena serem aprendidos em algum momento.
 
