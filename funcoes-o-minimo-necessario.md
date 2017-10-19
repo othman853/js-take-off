@@ -76,7 +76,7 @@ const oi = () => 'Oi'
 
 const saudarPessoa = (saudacao, nome) => saudacao() + ', ' + nome
 
-saudarPessoa(oi(), 'Helen Keller') // Oi, Helen Keller
+saudarPessoa(oi, 'Helen Keller') // Oi, Helen Keller
 ```
 
 ### Funções retornando funções
