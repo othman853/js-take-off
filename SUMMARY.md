@@ -8,7 +8,7 @@
 * [Variáveis](chapter1.md)
 * [Funções](funcoes-o-minimo-necessario.md)
 * [Escopos e Tipos de dados](tipos-de-dados-no-javascript.md)
-* [O mínimo sobre Objetos](objetos-e-funcoes.md)
+* [Objetos](objetos-e-funcoes.md)
 * [Funções em mais detalhes](funcoes.md)
 * [Olá, mundo](novo-projeto-nodejs.md)
 * [Primeiro projeto em node](primeiro-projeto-em-node.md)
