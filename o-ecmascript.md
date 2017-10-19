@@ -34,7 +34,7 @@ Bem, é possível usar código ES6 em browsers e ainda assim manter a compatibil
 })
 ```
 
-_Não se preocupe em entender agora como este código funcione, este é apenas um exemplo para demonstrar o que_ é _transpiling, o conteúdo do código em si não é nem um pouco relevante_.
+_Não se preocupe em entender agora como este código funciona, este é apenas um exemplo para demonstrar o que_ é _transpiling, o conteúdo do código em si não é nem um pouco relevante_.
 
 Apesar de Babel e transpiling serem amplamente adotados hoje em dia, eles ainda não são relevantes para entendermos como funciona o JavaScript no Browser, portanto, vamos ignorá-los por enquanto e seguir adiante.
 
