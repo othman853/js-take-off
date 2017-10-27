@@ -13,6 +13,5 @@
 * [Olá, mundo](novo-projeto-nodejs.md)
 * [Primeiro projeto em node](primeiro-projeto-em-node.md)
 * [Automação de tarefas](muito-prazer-npm.md)
-* [O que é node.js? Qual a diferença entre node.js e JavaScript?](o-que-e-nodejs-qual-a-diferenca-entre-nodejs-e-javascript.md)
 * [Apêndice](apendice.md)
 
