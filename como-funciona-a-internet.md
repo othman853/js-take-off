@@ -41,7 +41,7 @@ Então, observando o que acontece quando uma pessoa acessa um site qualquer, pod
 
 ### Como se parece uma requisição HTTP?
 
-No exemplo anterior, o browser fez uma requisição para o site www.google.com.br. Na prática, ele enviou, através de uma comunicação HTTP, um texto, mais ou menos como este:
+No exemplo anterior, o browser fez uma requisição para o site **www.google.com.br**. Na prática, ele enviou, através de uma comunicação HTTP, um texto, mais ou menos como este:
 
 ```http
 GET  HTTP/1.1
@@ -67,5 +67,5 @@ E o servidor da Google, por sua vez, respondeu com algo mais ou menos assim:
 
 Ou seja, a resposta do browser foi um documento HTML, contento scripts JavaScript e links para outros documentos CSS e mais scripts. Esta é a informação que o browser interpretará e transformará na famosa página de busca da Google.
 
-Em princípio, isso é tudo que precisamos saber sobre como os computadores se comunicam através da internet, no entanto, este é um assunto que se aprofunda muito e possui inúmeros conceitos e tópicos que valem a pena serem aprendidos em algum momento.
+Em princípio, isso é tudo que precisamos saber sobre como os computadores se comunicam através da internet, no entanto, este é um assunto que se aprofunda muito e possui inúmeros conceitos e tópicos que valem a pena serem aprendidos em algum momento. Caso você queira ver essa comunicação acontecendo na prática, há um exemplo de como utilizar o comando **telnet** para se comunicar com servidores através de HTTP.
 

@@ -31,9 +31,11 @@ Deixando o carro de lado e pensando em software novamente, podemos observar algu
 
 ### **Yarn**
 
-
-
 # HTTP
+
+### Testando HTTP com telnet
+
+[Fonte](https://web.stanford.edu/class/msande91si/www-spr04/readings/week1/InternetWhitepaper.htm)
 
 ### Verbos HTTP
 
